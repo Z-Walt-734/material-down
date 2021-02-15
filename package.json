@@ -2,15 +2,19 @@
   "name": "material-down",
   "version": "2.0.1",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "./src/MaterialDown.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.18.0",
-    "eslint-config-google": "^0.14.0"
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.22.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "remark-parse": "^9.0.0"
   }
 }
